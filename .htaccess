@@ -1,0 +1,5 @@
+# Dipakai bila document root tidak bisa diarahkan ke folder public/ (mis. public_html di Hostinger).
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^(.*)$ public/$1 [L]
+</IfModule>

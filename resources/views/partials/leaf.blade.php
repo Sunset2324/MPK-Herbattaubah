@@ -1,0 +1,1 @@
+<svg viewBox="0 0 24 24" width="{{ $size ?? 22 }}" height="{{ $size ?? 22 }}" fill="currentColor" aria-hidden="true"><path d="M20 3C10 3 4 8.5 4 15.5c0 1.6.4 3 1 4.2C6.8 14.6 10.5 11 16 9c-4.6 2.6-7.7 6.3-9.2 11.6 1 .3 2 .4 3.1.4C17 21 21 14.5 20 3z"/></svg>
