@@ -67,6 +67,9 @@ return [
 
     'timezone' => env('APP_TIMEZONE', 'Asia/Jakarta'),
 
+    // Proxy yang dipercaya (devtunnel/reverse proxy), dipisah koma, atau "*". Kosong = tidak ada.
+    'trusted_proxies' => env('TRUSTED_PROXIES'),
+
     /*
     |--------------------------------------------------------------------------
     | Application Locale Configuration
